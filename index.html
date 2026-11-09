@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rui Liu — Artificial Intelligence undergraduate at Xi’an Jiaotong-Liverpool University. Selected work in data modeling, algorithms, and systems simulation.">
+  <meta name="theme-color" content="#2455d6">
+  <title>Rui Liu | Personal Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- 导航使用页面锚点；手机菜单由 main.js 控制。 -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-name" href="#top" aria-label="Rui Liu, back to top">Rui Liu<span class="name-dot" aria-hidden="true"></span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" hidden>
+        <span class="menu-toggle-label">Menu</span>
+        <svg class="menu-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+          <path d="M4 8h16M4 16h16"/>
+        </svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- 首屏沿用已确认的英文个人介绍。 -->
+    <section class="hero container" id="about" aria-labelledby="intro-title">
+      <div class="hero-copy">
+        <div class="hero-identity">
+          <img class="profile-photo" src="assets/photo.jpg" width="112" height="112" alt="Illustrated avatar chosen by Rui Liu">
+          <h1 id="intro-title">Rui Liu</h1>
+        </div>
+        <p class="hero-role">Artificial Intelligence Undergraduate</p>
+        <p class="intro">I am an undergraduate student in Artificial Intelligence at Xi’an Jiaotong-Liverpool University. My academic projects span database design, graph-based route planning, algorithms, and computer systems simulation.</p>
+        <p class="intro">Through these projects, I have gained experience in organizing data, implementing algorithms, and analyzing system performance.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View projects</a>
+          <a class="button button-secondary" href="assets/CV.pdf" download="Rui-Liu-CV.pdf">Download CV</a>
+          <a class="button button-secondary" href="https://github.com/QLruil419">GitHub profile</a>
+        </div>
+      </div>
+
+      <aside class="project-index" aria-labelledby="explore-title">
+        <h2 id="explore-title">Explore my projects</h2>
+        <a class="index-link" href="#project-data">
+          <span class="index-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" focusable="false"><rect x="4" y="6" width="15" height="11" rx="2"/><path d="M4 10h15M11 6v11M19 13h6v10M15 23h10"/><rect x="7" y="20" width="8" height="7" rx="1"/></svg>
+          </span>
+          <span><strong>Data modeling</strong><span class="index-description">Structure, relationships &amp; routes</span></span>
+        </a>
+        <a class="index-link" href="#project-algorithms">
+          <span class="index-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" focusable="false"><path d="m7 24 8-16 11 13M7 24l19-3"/><circle cx="7" cy="24" r="3"/><circle cx="15" cy="8" r="3"/><circle cx="26" cy="21" r="3"/></svg>
+          </span>
+          <span><strong>Algorithms</strong><span class="index-description">Decisions, data structures &amp; paths</span></span>
+        </a>
+        <a class="index-link" href="#project-systems">
+          <span class="index-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" focusable="false"><rect x="7" y="7" width="18" height="18" rx="2"/><rect x="12" y="12" width="8" height="8" rx="1"/><path d="M12 3v4m8-4v4m-8 18v4m8-4v4M3 12h4m-4 8h4m18-8h4m-4 8h4"/></svg>
+          </span>
+          <span><strong>Systems simulation</strong><span class="index-description">Memory, scheduling &amp; computation</span></span>
+        </a>
+      </aside>
+    </section>
+
+    <section class="projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="projects-title">Selected Projects</h2>
+          <p>Academic work across data, algorithms, and systems.</p>
+        </div>
+
+        <!-- 以下 SVG 是概念示意图，不是项目实验结果或运行截图。 -->
+        <article class="project" id="project-data" aria-labelledby="data-title">
+          <figure class="project-figure">
+            <svg class="concept-art" viewBox="0 0 280 180" role="img" aria-labelledby="data-art-title">
+              <title id="data-art-title">Concept illustration: related tables connected to a graph</title>
+              <g class="diagram-lines">
+                <path d="M118 57h32v65h35M150 91h50"/>
+                <path d="m200 91 37-37m-37 37 37 49m-37-86v86"/>
+              </g>
+              <rect class="diagram-box" x="24" y="28" width="94" height="65" rx="5"/>
+              <path class="diagram-rule" d="M24 51h94M24 72h94M55 51v42"/>
+              <text class="diagram-label" x="38" y="44">Records</text>
+              <path class="diagram-mark" d="M35 62h8m22 0h37M35 83h8m22 0h25"/>
+              <rect class="diagram-box" x="59" y="113" width="85" height="40" rx="5"/>
+              <path class="diagram-rule" d="M59 134h85"/>
+              <text class="diagram-label" x="72" y="128">Relations</text>
+              <path class="diagram-mark" d="M72 144h18m10 0h30"/>
+              <circle class="diagram-node" cx="200" cy="91" r="12"/>
+              <circle class="diagram-node-soft" cx="237" cy="54" r="9"/>
+              <circle class="diagram-node-soft" cx="237" cy="140" r="9"/>
+              <circle class="diagram-node-small" cx="185" cy="122" r="5"/>
+            </svg>
+            <figcaption>Relational and graph models <span>Concept illustration</span></figcaption>
+          </figure>
+          <div class="project-copy">
+            <p class="project-meta"><span>Core Team Member</span><time datetime="2026-06">June 2026</time></p>
+            <h3 id="data-title">Data Modeling and Graph-Based Route Planning</h3>
+            <p>Contributed to relational database design, PostgreSQL queries, and graph-based route planning using Neo4j and Cypher. Modeled hierarchical e-commerce order data using XML and DTD.</p>
+            <ul class="technology-list" aria-label="Project technologies">
+              <li>PostgreSQL</li><li>Neo4j &amp; Cypher</li><li>XML &amp; DTD</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project" id="project-algorithms" aria-labelledby="algorithms-title">
+          <figure class="project-figure">
+            <svg class="concept-art" viewBox="0 0 280 180" role="img" aria-labelledby="algorithms-art-title">
+              <title id="algorithms-art-title">Concept illustration: a selected path through a graph</title>
+              <g class="diagram-lines">
+                <path d="m35 100 65-55 54 45 77-41M35 100l65 38 54-48 77 39m-131-84v93m131-89v80"/>
+              </g>
+              <path class="diagram-path" d="m35 100 65-55 54 45 77 39"/>
+              <circle class="diagram-node" cx="35" cy="100" r="10"/>
+              <circle class="diagram-node" cx="100" cy="45" r="9"/>
+              <circle class="diagram-node" cx="154" cy="90" r="10"/>
+              <circle class="diagram-node" cx="231" cy="129" r="10"/>
+              <circle class="diagram-node-soft" cx="100" cy="138" r="8"/>
+              <circle class="diagram-node-soft" cx="231" cy="49" r="8"/>
+              <text class="diagram-label" x="20" y="131">Start</text>
+              <text class="diagram-label" x="218" y="158">Goal</text>
+            </svg>
+            <figcaption>Paths and decisions <span>Concept illustration</span></figcaption>
+          </figure>
+          <div class="project-copy">
+            <p class="project-meta"><span>Core Team Member</span><time datetime="2026-05">May 2026</time></p>
+            <h3 id="algorithms-title">Algorithms and Data Structures</h3>
+            <p>Applied divide-and-conquer, greedy, and dynamic programming methods to algorithmic problems. Worked with hash tables, heaps, Dijkstra’s algorithm, and 0–1 BFS for order management, task scheduling, and shortest-path computation.</p>
+            <ul class="technology-list" aria-label="Project methods">
+              <li>Data structures</li><li>Dynamic programming</li><li>Graph algorithms</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project" id="project-systems" aria-labelledby="systems-title">
+          <figure class="project-figure">
+            <svg class="concept-art" viewBox="0 0 280 180" role="img" aria-labelledby="systems-art-title">
+              <title id="systems-art-title">Concept illustration: a processor, cache, and memory blocks</title>
+              <rect class="diagram-box" x="22" y="58" width="61" height="64" rx="5"/>
+              <rect class="diagram-node" x="34" y="70" width="37" height="40" rx="3"/>
+              <text class="diagram-label-inverse" x="40" y="94">CPU</text>
+              <path class="diagram-lines" d="M83 90h31m52 0h25M114 51v78m52-78v78"/>
+              <g class="diagram-lines"><path d="M35 50v8m17-8v8m17-8v8m-34 64v8m17-8v8m17-8v8"/></g>
+              <rect class="diagram-node-soft" x="114" y="51" width="52" height="23" rx="3"/>
+              <rect class="diagram-node" x="114" y="79" width="52" height="23" rx="3"/>
+              <rect class="diagram-node-soft" x="114" y="107" width="52" height="23" rx="3"/>
+              <rect class="diagram-box" x="191" y="35" width="64" height="112" rx="5"/>
+              <path class="diagram-rule" d="M191 57h64m-64 22h64m-64 22h64m-64 22h64"/>
+              <text class="diagram-label" x="121" y="153">Cache</text>
+              <text class="diagram-label" x="199" y="169">Memory</text>
+            </svg>
+            <figcaption>Memory and execution <span>Concept illustration</span></figcaption>
+          </figure>
+          <div class="project-copy">
+            <p class="project-meta"><span>Core Team Member</span><span><time datetime="2026-04">April</time>–<time datetime="2026-05">May 2026</time></span></p>
+            <h3 id="systems-title">Computer Architecture and Systems Simulation</h3>
+            <p>Contributed to concurrency control and simulations of cache replacement, disk scheduling, and CPU scheduling. Used NumPy vectorization and algebraic reformulation to improve numerical stability.</p>
+            <ul class="technology-list" aria-label="Project technologies">
+              <li>x86</li><li>Cache simulation</li><li>NumPy</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills-section container section-space" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading">
+        <h2 id="skills-title">Skills</h2>
+        <p>Tools and methods from my studies and project work.</p>
+      </div>
+      <dl class="skills-grid">
+        <div><dt>Programming</dt><dd>Python, Java, SQL</dd></div>
+        <div><dt>Databases</dt><dd>MySQL, PostgreSQL</dd></div>
+        <div><dt>Graph Technologies</dt><dd>Neo4j, Cypher</dd></div>
+        <div><dt>Data Modeling</dt><dd>Entity–Relationship Modeling, Database Normalization, XML, DTD</dd></div>
+        <div><dt>Numerical Computing</dt><dd>NumPy</dd></div>
+        <div><dt>Algorithms</dt><dd>Divide and Conquer, Greedy Algorithms, Dynamic Programming, Shortest-Path Algorithms</dd></div>
+      </dl>
+    </section>
+
+    <section class="education-section" id="education" aria-labelledby="education-title">
+      <div class="container education-inner">
+        <h2 id="education-title">Education</h2>
+        <div class="education-copy">
+          <h3>Xi’an Jiaotong-Liverpool University</h3>
+          <p>Major: Artificial Intelligence</p>
+          <p class="education-date"><time datetime="2024-08">August 2024</time> – <time datetime="2028-07">July 2028</time> (expected)</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section container section-space" id="contact" aria-labelledby="contact-title">
+      <div>
+        <h2 id="contact-title">Contact</h2>
+        <p>Find me on GitHub.</p>
+      </div>
+      <a class="github-contact" href="https://github.com/QLruil419" aria-label="QLruil419 on GitHub">
+        <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false">
+          <path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.17c-3.13.68-3.79-1.33-3.79-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.63 1.22 3.27.93.1-.73.39-1.22.71-1.5-2.5-.28-5.13-1.25-5.13-5.57 0-1.23.44-2.24 1.16-3.03-.12-.28-.51-1.43.11-2.98 0 0 .95-.3 3.08 1.16a10.7 10.7 0 0 1 5.6 0c2.13-1.46 3.07-1.16 3.07-1.16.62 1.55.23 2.7.11 2.98.73.79 1.16 1.8 1.16 3.03 0 4.33-2.63 5.28-5.14 5.56.4.35.76 1.03.76 2.08v3.18c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"/>
+        </svg>
+        <span><span class="contact-label">GitHub</span><strong>QLruil419</strong></span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Rui Liu</span>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+</body>
+</html>
